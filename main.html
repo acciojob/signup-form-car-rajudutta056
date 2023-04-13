@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+<!--     <script type="text/javascript" src="./script.js">
 </script>
 	<from form action="/action_page.php" method="get">
 		<div>
@@ -67,7 +67,67 @@
 			<input type="submit" value="submit">
 		</div>
 	</from>
-
+ -->
+	<h1> Signup Form Car </h1>
+     <form action="/action.php">
+        <div>
+            <label for="Name"> Name : </label>
+                <input type="text" placeholder="Name" required>
+           
+        </div>
+        <br>
+        <div>
+            <label for="Email"> Email : </label>
+                <input type="email" placeholder="Email" required>
+           
+        </div>
+        <br>
+        <div>
+            <label for="Gender"> Gender : </label>
+              Male  <input type="radio"  required  name="Gender">
+             Female  <input type="radio"  required  name="Gender">
+        </div>
+        <br>
+        <div>
+            Car Brands :<select for="Car Brands" required> 
+              <option  value="--Please choose an option--">--Please choose an option--</option>
+              <option  value="BMW">BMW</option>
+              <option  value="Audi">Audi</option>
+              <option  value="Mercedez">Mercedez</option>
+            </select>
+        </div>
+         <br>
+         <div>
+            <label for="Age"> Age : </label>
+                <input type="number" placeholder="Age" required>
+           
+        </div>
+        <br>
+        <div>
+            <label for="DOB"> DOB : </label>
+            <input type="date"  required>  
+        </div>
+        <br>
+        <div>
+            <label for="Phone number"> Phone number : </label>
+            <input type="tel" placeholder="xxx-xxx-xxxx" required>  
+        </div>
+        <br>
+        <div>
+            <label for="password"> password : </label>
+            <input type="password" placeholder="password"  required>  
+        </div>
+        <br>
+        <div>
+              <label for="Checkbox">  I agree to the TOS </label>
+            <input type="Checkbox" value=" Checkbox" required> 
+            
+        </div>
+        <br>
+        
+            <input type="submit"  value="submit">  
+    
+     </form>
 </body>
 
 </html>
